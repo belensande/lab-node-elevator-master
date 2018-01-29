@@ -1,0 +1,24 @@
+const Elevator = require('./elevator.js');
+const Person = require('./person.js');
+
+var elevator = new Elevator();
+const person1 = new Person("person1", 0, 2);
+elevator.call(person1);
+const person2 = new Person("person2", 0, 7);
+elevator.call(person2);
+const person3 = new Person("person3", 3, 2);
+elevator.call(person3);
+const person4 = new Person("person4", 10, 2);
+elevator.call(person4);
+const person5 = new Person("person5", 9, 8);
+elevator.call(person5);
+const person6 = new Person("person6", 6, 1);
+elevator.call(person6);
+const person7 = new Person("person7", 4, 5);
+elevator.call(person7);
+const person8 = new Person("person8", 2, 1);
+elevator.call(person8);
+const person9 = new Person("person9", 3, 9);
+elevator.call(person9);
+const person10 = new Person("person10", 4, 8);
+elevator.call(person10);
